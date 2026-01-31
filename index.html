@@ -1,1 +1,135 @@
-<h1>Hello Emeletec</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emilio Melgarejo | Frontend Engineer</title>
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --dark: #111827;
+      --gray: #6b7280;
+      --light: #f9fafb;
+      --card: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      color: var(--dark);
+    }
+
+    .container {
+      background: var(--card);
+      max-width: 900px;
+      width: 100%;
+      padding: 4rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 30px 60px rgba(0,0,0,.2);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: var(--gray);
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      max-width: 720px;
+      margin: auto;
+      line-height: 1.8;
+      color: #374151;
+    }
+
+    .description p {
+      margin-bottom: 1.2rem;
+    }
+
+    .tags {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .tag {
+      background: #eef2ff;
+      color: var(--primary);
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+    <h1>Emilio Melgarejo</h1>
+
+    <p class="subtitle">
+      Frontend Engineer | Angular | TypeScript | JavaScript | RxJS | CSS | HTML |
+      PrimeNG | Angular Material
+    </p>
+
+    <div class="description">
+      <p>
+        Llevo más de 6 años desarrollando proyectos frontend con Angular.
+      </p>
+      <p>
+        Principalmente integro microfrontends con microservicios de sistemas bancarios.
+      </p>
+      <p>
+        También desarrollo landing pages y librerías npm con Node.js y TypeScript.
+      </p>
+      <p>
+        También diseño interfaces UI en Figma.
+      </p>
+    </div>
+
+    <div class="tags">
+      <span class="tag">Angular</span>
+      <span class="tag">Microfrontends</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">RxJS</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">UI Design</span>
+      <span class="tag">Figma</span>
+    </div>
+
+    <footer>
+      © 2026 · Frontend Engineer
+    </footer>
+  </main>
+
+</body>
+</html>
