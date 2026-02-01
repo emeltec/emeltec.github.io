@@ -21,7 +21,7 @@
 
     body {
       min-height: 100vh;
-      background: linear-gradient(120deg, #090f2f 0%, #E91E63 45%, #FF5722 100%);
+      background: linear-gradient(120deg, #090f2f 0%, #1a31e6 45%, #1d0a39 100%);
       color: var(--white);
       display: flex;
       align-items: center;
@@ -95,6 +95,8 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
+      background-image: url(https://media.licdn.com/dms/image/v2/D4E03AQF8fKs_sfPkXg/profile-displayphoto-shrink_800_800/B4EZclFNiqG4Ac-/0/1748673813127?e=1771459200&v=beta&t=uZQ6R9Jzzwn7J6W1_nCw5s0jvF1RUcpsc7guEXGQvVc);
+      background-size: cover;
     }
 
     .visual::before {
@@ -105,13 +107,6 @@
       background: radial-gradient(circle, #ffffff55, transparent 70%);
       top: -60px;
       right: -60px;
-    }
-
-    .visual span {
-      font-size: 1.2rem;
-      opacity: .9;
-      text-align: center;
-      padding: 2rem;
     }
 
     @media (max-width: 900px) {
@@ -178,11 +173,7 @@
     </section>
 
     <!-- RIGHT -->
-    <section class="visual">
-      <span>
-        Aquí puedes colocar<br>
-        tu foto, mockup o ilustración
-      </span>
+    <section class="visual avatar">
     </section>
   </main>
 
